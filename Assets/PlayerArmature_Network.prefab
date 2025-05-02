@@ -881,8 +881,8 @@ GameObject:
   - component: {fileID: 1894328318966249517}
   - component: {fileID: -2520384782097482631}
   - component: {fileID: 8071066283908976044}
-  - component: {fileID: 8255854800399394067}
-  - component: {fileID: -5665076176752139435}
+  - component: {fileID: 6637045116370677866}
+  - component: {fileID: 3165091704587667024}
   m_Layer: 8
   m_Name: PlayerArmature_Network
   m_TagString: Player
@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_PlayerInput: {fileID: 1894328318966249517}
   m_StarterAssetsInputs: {fileID: 3774339702862332752}
   m_ThirdPersonController: {fileID: 3668907254156194862}
---- !u!114 &8255854800399394067
+--- !u!114 &6637045116370677866
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1166,11 +1166,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3783471719887359622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 760fffe630570f9448fb258aad1de229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  NetworkTransformExpanded: 0
+  NetworkTransformExpanded: 1
   AutoOwnerAuthorityTickOffset: 1
   PositionInterpolationType: 0
   RotationInterpolationType: 0
@@ -1203,7 +1203,7 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
---- !u!114 &-5665076176752139435
+--- !u!114 &3165091704587667024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3783471719887359622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8d0727d5ae3244e3b569694d3912374, type: 3}
+  m_Script: {fileID: 11500000, guid: 2623ec331d183c542bad58884fef6854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
